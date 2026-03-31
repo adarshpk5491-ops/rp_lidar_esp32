@@ -1,0 +1,25 @@
+{
+  "name": "rplidar-sdk-arduino",
+  "version": "2.0.0",
+  "description": "Slamtec RPLIDAR SDK for Arduino",
+  "keywords": "rplidar, lidar, slamtec, sensor",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Slamtec/rplidar_sdk_arduino"
+  },
+  "authors": [
+    {
+      "name": "Slamtec",
+      "url": "https://www.slamtec.com"
+    }
+  ],
+  "license": "BSD",
+  "frameworks": "arduino",
+  "platforms": "*",
+  "build": {
+    "flags": [
+      "-std=c++11",
+      "-Wno-error=deprecated-declarations"
+    ]
+  }
+}
